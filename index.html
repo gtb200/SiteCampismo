@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campismo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<!-- Parte da navegação -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+
+        <a class="navbar-brand"  href="https://www.facebook.com"><img id="logo" src="Recursos/logo.png"></a>
+
+        <button id="openNav" class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">A oferecer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Calculadora de preços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contactos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- ------------------------------- -->
+<!--Carrossel de imagens-->
+
+<div id="slides" class="carousel slide pt-5" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner ">
+        <div class="carousel-item active">
+            <img class="d-block mx-auto" src="Recursos/1.jpg">
+            <div id="caption1" class="carousel-caption">
+                <h1  class="display-3">Parque de campismo: Salga</h1>
+                <h3>Junta de freguesia São Sebastião</h3>
+            </div>
+        </div>
+        <div class="carousel-item ">
+            <img class="d-block mx-auto" src="Recursos/2.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block mx-auto" src="Recursos/3.jpg">
+        </div>
+    </div>
+</div>
+
+
+<!-- Parte de inicio -->
+
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4 pb-3">Acampar</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+            <p class="lead text-left" id="inicio">&nbsp; &nbsp;O parque de campismo da Salga ofereçe um lugar maravilhoso para ter uma excelente experiência de campismo. Estando
+                localizado ao lado de uma ótima zona balnear pode aproveitar para tomar banhos de sol e água e descansar de seguida
+                no seu acampamento.
+                Aí pode desfrutar uma variedade de coisas que o parque tem ao seu dispor, como por exemplo:
+                <br><br>
+                &nbsp; &nbsp;&nbsp; &nbsp;-Eletricidade<br>
+                &nbsp; &nbsp;&nbsp; &nbsp;-Água quente<br>
+                &nbsp; &nbsp;&nbsp; &nbsp;-Internet Grátis<br>
+                &nbsp; &nbsp;&nbsp; &nbsp;-Telefone Público<br>
+                &nbsp; &nbsp;&nbsp; &nbsp;-Grelhadores<br>
+                &nbsp; &nbsp;&nbsp; &nbsp;-Mini parque infantil
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Parte das informações -->
+
+<div class="container-fluid padding pt-5">
+
+    <div class="row padding ">
+        <div class="col-12 col-lg-6">
+            <h1 class="display-4 text-center pb-3">A oferecer:</h1>
+            <p class="lead pb-3">O nosso parque tem muitos recursos para usufruir, veja aqui mais informações
+            sobre estes:</p>
+            <button type="button" class="btn btn-outline-secondary escolha">Eletrecidade</button><br>
+            <button type="button" class="btn btn-outline-secondary escolha">Água quente</button><br>
+            <button type="button" class="btn btn-outline-secondary escolha">Internet grátis</button><br>
+            <button type="button" class="btn btn-outline-secondary escolha">Excelente localização</button><br>
+            <button type="button" class="btn btn-outline-secondary escolha">Grelhadores</button><br>
+            <button type="button" class="btn btn-outline-secondary escolha">Parque infantil</button>
+        </div>
+
+        <div class="col-lg-6">
+            <p class="display-4 lead text-center tituloInfo"></p>
+            <img src="Recursos/1.jpg" class="image-fluid myclass imgInfo">
+            <p class="lead text-left infor"></p>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+<!-- Calculadora de preços -->
+
+<div class="container-fluid padding pt-5">
+    <div class="row padding">
+        <div class="col-12 col-lg-6 text-center">
+            <h1 class="display-4 text-center">Calculadora de preços:</h1>
+            <p class="font-weight-bold text-center pt-3"> Número de dias:</p>
+            <input class="calc" min="0" value="0" type="number">
+            <p class="font-weight-bold text-center pt-3"> Número de tendas com menos de 6m²:</p>
+            <input class="calc" min="0" value="0" type="number">
+            <p class="font-weight-bold text-center pt-3"> Número de tendas com mais de 6m²:</p>
+            <input class="calc" min="0" value="0" type="number">
+            <p class="font-weight-bold text-center pt-3"> Número de autocaravanas:</p>
+            <input class="calc" min="0" value="0" type="number">
+            <p class="font-weight-bold text-center pt-3"> Número de adultos:</p>
+            <input class="calc" min="0" value="0" type="number">
+            <p class="font-weight-bold text-center pt-3"> Número de crianças:</p>
+            <input class="calc" min="0" value="0" type="number"><br>
+            <button type="button" id="calcular" class="btn-primary mt-3 btn-lg">Calcular</button>
+            <h2 class="display-5 font-weight-bold pt-4 resultado"></h2>
+        </div>
+
+        <div class="col-lg-6">
+            <img class="image-fluid myclass" src="Recursos/preços.jpg">
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+#caption1{
+    top: 0;
+    bottom: auto;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+#openNav{
+
+}
+#logo{
+    height: 6vh;
+
+}
+#slides{
+    margin-bottom: 5vh;
+}
+
+#inicio{
+    padding-left: 7vh;
+    padding-right: 7vh;
+}
+/*   media queries  */
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+.myclass{
+    width: auto;
+    margin: 5%;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+.escolha{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*
+576px ->small devices  (phones) sm
+768px ->medium devices (tablets) md
+992px ->large devices (desktops) lg
+1200px ->very large devices (large desktops) xl
+ */
