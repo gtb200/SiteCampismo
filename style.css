@@ -1,3 +1,64 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+.navbar{
+    padding: .8rem;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 80%;
+}
+.fa-facebook{
+    color: #3b5998;
+    font-size: 4.5em;
+    margin: 3rem;
+    transition: .7s;
+}
+.fa-facebook:hover{
+    color: #d5d5d5;
+
+}
+footer{
+    padding-top: 2rem;
+    color: #d5d5d5;
+    background-color: #3f3f3f;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+.navbar-nav li{
+    padding-right: 1.4rem;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+.imagemInfo{
+    transition-duration: 1s;
+}
+.btn-primary{
+    transition: .5s;
+}
+.padding {
+    padding-bottom: 2rem;
+}
+.carousel-inner img{
+    width: 70%;
+    height: 70%;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    text-shadow: 1px 1px 1px 200px #000;
+}
 #caption1{
     top: 0;
     bottom: auto;
@@ -7,7 +68,7 @@
 #openNav{
 
 }
-#logo{
+.logo{
     height: 6vh;
 
 }

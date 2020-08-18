@@ -9,6 +9,7 @@ function main() {
     let buttons = document.getElementsByClassName("escolha");
     setupButtonsInfo(buttons);
     document.getElementById("calcular").addEventListener("click",calcularPreco);
+    loadImages();
 
     
 }
@@ -49,7 +50,15 @@ function calcularPreco(ev){
     console.log(preçoFinal);
     document.getElementsByClassName("resultado")[0].textContent="Preço final: "+preçoFinal+"€";
 }
-
+function loadImages(){
+    let imagens=document.getElementsByTagName("img");
+    for (let i = 0; i < imagens.length; i++) {
+        imagens[i].addEventListener("loaded",load);
+    }
+}
+function load(ev) {
+    ev.src+="";
+}
 function calcularDias(dias) {
     let meses=0,semanas=0;
     while (dias>29){
