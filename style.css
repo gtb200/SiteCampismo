@@ -56,13 +56,17 @@ hr.light{
     height: 70%;
 }
 .carousel-caption h3{
-    font-size: 200%;
+
     text-shadow: 1px 1px 1px 200px #000;
 }
 #caption1{
+
     top: 0;
     bottom: auto;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+.caption{
 
 }
 #openNav{
@@ -85,10 +89,34 @@ hr.light{
 
 }
 @media (max-width: 768px) {
+    .carousel-caption h3{
+        font-size: 140%;
+        font-weight: 400;
+    }
+    .carousel-caption h1{
+        font-size: 350%;
+    }
+    .zonaInicio{
+        width: 90%;
+    }
 
 }
 @media (max-width: 576px) {
+    .carousel-caption h3{
+        font-size: 100%;
+        font-weight: 400;
+    }
+    .carousel-caption h1{
+        font-size: 250%;
+    }
+    #inicio{
+        padding-left: 0;
+        padding-right: 0;
 
+    }
+    .zonaInicio{
+        width: 100%;
+    }
 }
 .myclass{
     width: auto;
