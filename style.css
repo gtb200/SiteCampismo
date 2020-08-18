@@ -122,8 +122,8 @@ hr.light{
         width: 100%;
     }
     .carousel-inner img{
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 100%;
     }
 }
 .myclass{
@@ -133,6 +133,7 @@ hr.light{
     max-width: 90%;
     max-height: 90%;
 }
+
 .escolha{
     width: 90%;
     margin-left: 5%;
