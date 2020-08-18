@@ -86,7 +86,7 @@ function setToggled(ev) {
     console.log(imagem.src);
     if (ev.currentTarget.innerText == "Eletrecidade"){
         imagem.src+="9.jpg";
-        titulo.textContent="Eletrecidade"
+        titulo.textContent="Eletricidade"
         texto.textContent="Espalhado ao longo do acampamento tem disponível pomadas eletricas" +
             " quais podera usar livremente. Basta requesitar na receção o adaptador para começar" +
             " a usar."

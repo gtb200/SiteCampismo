@@ -4,9 +4,25 @@ html,body{
     font-family: 'Poppins', sans-serif;
     color: #222;
     scroll-behavior: smooth;
+
 }
 .navbar{
     padding: .8rem;
+}
+.fixed{
+    background-image: url("Recursos/fixed.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.fixed-wrap{
+    filter: grayscale(50%);
+    height: 100%;
+    width: 100%;
+    background-position: center;
 }
 .welcome{
     width: 75%;
