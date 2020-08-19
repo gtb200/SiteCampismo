@@ -8,6 +8,7 @@ html,body{
 }
 .navbar{
     padding: .8rem;
+
 }
 .fixed{
     background-image: url("Recursos/fixed.jpg");
@@ -23,6 +24,16 @@ html,body{
     height: 100%;
     width: 100%;
     background-position: center;
+}
+figure{
+    background-image: linear-gradient(to right, #2193b0, #6dd5ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 0;
+}
+.my-10{
+    margin-bottom: 0;
+    margin-top: 0;
+    border-top: 1px solid black;
 }
 .welcome{
     width: 75%;
@@ -94,13 +105,14 @@ hr.light{
 
 }
 #slides{
-    margin-bottom: 5vh;
 }
 
 #inicio{
     padding-left: 7vh;
     padding-right: 7vh;
 }
+
+
 
 /*   media queries  */
 @media (max-width: 992px) {
@@ -155,6 +167,15 @@ hr.light{
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+}
+.i2{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.i3{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.i4{
+    background-image: linear-gradient(to right, #2193b0, #6dd5ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /*
 576px ->small devices  (phones) sm
