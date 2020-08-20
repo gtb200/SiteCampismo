@@ -113,7 +113,10 @@ hr.light{
     padding-right: 7vh;
 }
 
-
+.tabela{
+    margin: auto;
+    width: 80%;
+}
 
 /*   media queries  */
 @media (max-width: 992px) {
@@ -154,6 +157,10 @@ hr.light{
     .carousel-inner img{
         width: 90%;
         height: 100%;
+    }
+    .tabela{
+        width: 75%;
+        margin: auto;
     }
 }
 .myclass{
